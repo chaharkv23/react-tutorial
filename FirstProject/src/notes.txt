@@ -1,0 +1,21 @@
+Components:
+
+-> Reusability
+-> Separation of concerns
+-> Don't repeat yourself
+-> Don't do too many things in one and the same place(function)
+
+    React allows you to create reusable and reactive components consisting of HTML and JavaScript(and CSS)
+                                Declarative Approach
+    Define the desired target state(s) and let react figure out the actual JavaScript DOM instructions.
+
+
+
+    How components function are executed:
+-> Components itself a function -> when jsx code executes, that components(function) display on output.
+-> When we have to re-evaluate jsx code, we use state. Without state, there will be no updation on display.
+
+    Working with State:
+->  useState doesn't call inside any nested function but inside a component function.
+-> state called for each element in other component.(independently) -> means if we change the value of one
+   state, then it could not effect other element or couldn't change at that instance.
